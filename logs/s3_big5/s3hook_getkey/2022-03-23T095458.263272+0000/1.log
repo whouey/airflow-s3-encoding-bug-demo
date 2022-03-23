@@ -1,0 +1,24 @@
+[2022-03-23 09:54:59,355] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: s3_big5.s3hook_getkey manual__2022-03-23T09:54:58.263272+00:00 [queued]>
+[2022-03-23 09:54:59,368] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: s3_big5.s3hook_getkey manual__2022-03-23T09:54:58.263272+00:00 [queued]>
+[2022-03-23 09:54:59,368] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 09:54:59,369] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-03-23 09:54:59,369] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 09:54:59,387] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): s3hook_getkey> on 2022-03-23 09:54:58.263272+00:00
+[2022-03-23 09:54:59,392] {standard_task_runner.py:52} INFO - Started process 3191 to run task
+[2022-03-23 09:54:59,396] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 's3_big5', 's3hook_getkey', 'manual__2022-03-23T09:54:58.263272+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/s3_big5.py', '--cfg-path', '/tmp/tmpr12b189d', '--error-file', '/tmp/tmp8q1v6rkl']
+[2022-03-23 09:54:59,397] {standard_task_runner.py:77} INFO - Job 39: Subtask s3hook_getkey
+[2022-03-23 09:54:59,469] {logging_mixin.py:109} INFO - Running <TaskInstance: s3_big5.s3hook_getkey manual__2022-03-23T09:54:58.263272+00:00 [running]> on host c15ce74e6b9e
+[2022-03-23 09:54:59,554] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=s3_big5
+AIRFLOW_CTX_TASK_ID=s3hook_getkey
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-23T09:54:58.263272+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-23T09:54:58.263272+00:00
+[2022-03-23 09:54:59,569] {base_aws.py:190} INFO - Credentials retrieved from login
+[2022-03-23 09:55:01,247] {s3_big5.py:22} INFO - 我是一隻魚
+[2022-03-23 09:55:01,254] {python.py:175} INFO - Done. Returned value was: None
+[2022-03-23 09:55:01,315] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=s3_big5, task_id=s3hook_getkey, execution_date=20220323T095458, start_date=20220323T095459, end_date=20220323T095501
+[2022-03-23 09:55:01,419] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-23 09:55:01,563] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
